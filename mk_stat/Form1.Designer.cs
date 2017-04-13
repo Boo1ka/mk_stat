@@ -44,91 +44,93 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Кэсси Кейдж",
-            "Ди\'Вора",
-            "Эрмак",
-            "Эррон Блэк",
-            "Ферра и Торр",
+            "Бо Рай Чо",
             "Горо",
-            "Джэки Бриггс",
             "Джакс",
+            "Джейсон Вурхиз",
             "Джонни Кейдж",
+            "Джэки Бриггс",
+            "Ди\'Вора",
             "Кано",
             "Кенши",
             "Китана",
+            "Кожаное лицо",
             "Коталь Кан",
+            "Куан Чи",
             "Кунг Джин",
             "Кунг Лао",
+            "Кэсси Кейдж",
             "Лю Кенг",
             "Милина",
-            "Куан Чи",
             "Райдэн",
             "Рептилия",
-            "Скорпион",
-            "Шиннок",
-            "Соня Блейд",
             "Саб-Зиро",
+            "Скорпион",
+            "Соня Блейд",
             "Такеда Такахаши",
             "Таня",
             "Тремор",
             "ТриБорг",
-            "Бо Рай Чо",
-            "Джейсон Вурхиз",
+            "Ферра и Торр",
             "Хищник",
-            "Кожаное лицо",
-            "Чужой"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 12);
+            "Чужой",
+            "Шиннок",
+            "Эрмак",
+            "Эррон Блэк"});
+            this.comboBox1.Location = new System.Drawing.Point(12, 14);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 28);
+            this.comboBox1.Size = new System.Drawing.Size(150, 28);
+            this.comboBox1.Sorted = true;
             this.comboBox1.TabIndex = 0;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "Кэсси Кейдж",
-            "Ди\'Вора",
-            "Эрмак",
-            "Эррон Блэк",
-            "Ферра и Торр",
+            "Бо Рай Чо",
             "Горо",
-            "Джэки Бриггс",
             "Джакс",
+            "Джейсон Вурхиз",
             "Джонни Кейдж",
+            "Джэки Бриггс",
+            "Ди\'Вора",
             "Кано",
             "Кенши",
             "Китана",
+            "Кожаное лицо",
             "Коталь Кан",
+            "Куан Чи",
             "Кунг Джин",
             "Кунг Лао",
+            "Кэсси Кейдж",
             "Лю Кенг",
             "Милина",
-            "Куан Чи",
             "Райдэн",
             "Рептилия",
-            "Скорпион",
-            "Шиннок",
-            "Соня Блейд",
             "Саб-Зиро",
+            "Скорпион",
+            "Соня Блейд",
             "Такеда Такахаши",
             "Таня",
             "Тремор",
             "ТриБорг",
-            "Бо Рай Чо",
-            "Джейсон Вурхиз",
+            "Ферра и Торр",
             "Хищник",
-            "Кожаное лицо",
-            "Чужой"});
-            this.comboBox2.Location = new System.Drawing.Point(12, 51);
+            "Чужой",
+            "Шиннок",
+            "Эрмак",
+            "Эррон Блэк"});
+            this.comboBox2.Location = new System.Drawing.Point(12, 60);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 28);
+            this.comboBox2.Size = new System.Drawing.Size(150, 28);
+            this.comboBox2.Sorted = true;
             this.comboBox2.TabIndex = 1;
             // 
             // p1_f
             // 
-            this.p1_f.Location = new System.Drawing.Point(230, 12);
+            this.p1_f.Location = new System.Drawing.Point(306, 14);
             this.p1_f.Name = "p1_f";
-            this.p1_f.Size = new System.Drawing.Size(75, 28);
+            this.p1_f.Size = new System.Drawing.Size(90, 35);
             this.p1_f.TabIndex = 2;
             this.p1_f.Text = "P1_Fat";
             this.p1_f.UseVisualStyleBackColor = true;
@@ -136,9 +138,9 @@
             // 
             // p1_b
             // 
-            this.p1_b.Location = new System.Drawing.Point(331, 12);
+            this.p1_b.Location = new System.Drawing.Point(407, 14);
             this.p1_b.Name = "p1_b";
-            this.p1_b.Size = new System.Drawing.Size(75, 28);
+            this.p1_b.Size = new System.Drawing.Size(90, 35);
             this.p1_b.TabIndex = 3;
             this.p1_b.Text = "P1_Brut";
             this.p1_b.UseVisualStyleBackColor = true;
@@ -146,9 +148,9 @@
             // 
             // p1_r
             // 
-            this.p1_r.Location = new System.Drawing.Point(430, 12);
+            this.p1_r.Location = new System.Drawing.Point(506, 14);
             this.p1_r.Name = "p1_r";
-            this.p1_r.Size = new System.Drawing.Size(75, 28);
+            this.p1_r.Size = new System.Drawing.Size(90, 35);
             this.p1_r.TabIndex = 4;
             this.p1_r.Text = "P1_R";
             this.p1_r.UseVisualStyleBackColor = true;
@@ -156,9 +158,9 @@
             // 
             // p2_f
             // 
-            this.p2_f.Location = new System.Drawing.Point(230, 51);
+            this.p2_f.Location = new System.Drawing.Point(306, 53);
             this.p2_f.Name = "p2_f";
-            this.p2_f.Size = new System.Drawing.Size(75, 28);
+            this.p2_f.Size = new System.Drawing.Size(90, 35);
             this.p2_f.TabIndex = 5;
             this.p2_f.Text = "P2_Fat";
             this.p2_f.UseVisualStyleBackColor = true;
@@ -166,9 +168,9 @@
             // 
             // p2_b
             // 
-            this.p2_b.Location = new System.Drawing.Point(331, 51);
+            this.p2_b.Location = new System.Drawing.Point(407, 53);
             this.p2_b.Name = "p2_b";
-            this.p2_b.Size = new System.Drawing.Size(75, 28);
+            this.p2_b.Size = new System.Drawing.Size(90, 35);
             this.p2_b.TabIndex = 6;
             this.p2_b.Text = "P2_Brut";
             this.p2_b.UseVisualStyleBackColor = true;
@@ -176,9 +178,9 @@
             // 
             // p2_r
             // 
-            this.p2_r.Location = new System.Drawing.Point(430, 51);
+            this.p2_r.Location = new System.Drawing.Point(506, 53);
             this.p2_r.Name = "p2_r";
-            this.p2_r.Size = new System.Drawing.Size(75, 28);
+            this.p2_r.Size = new System.Drawing.Size(90, 35);
             this.p2_r.TabIndex = 7;
             this.p2_r.Text = "P2_R";
             this.p2_r.UseVisualStyleBackColor = true;
@@ -186,17 +188,19 @@
             // 
             // p1_text_score
             // 
-            this.p1_text_score.Location = new System.Drawing.Point(150, 14);
+            this.p1_text_score.Location = new System.Drawing.Point(191, 18);
             this.p1_text_score.Name = "p1_text_score";
-            this.p1_text_score.Size = new System.Drawing.Size(56, 26);
+            this.p1_text_score.ReadOnly = true;
+            this.p1_text_score.Size = new System.Drawing.Size(90, 26);
             this.p1_text_score.TabIndex = 8;
             this.p1_text_score.Text = "0";
             // 
             // p2_text_score
             // 
-            this.p2_text_score.Location = new System.Drawing.Point(150, 53);
+            this.p2_text_score.Location = new System.Drawing.Point(191, 57);
             this.p2_text_score.Name = "p2_text_score";
-            this.p2_text_score.Size = new System.Drawing.Size(56, 26);
+            this.p2_text_score.ReadOnly = true;
+            this.p2_text_score.Size = new System.Drawing.Size(90, 26);
             this.p2_text_score.TabIndex = 9;
             this.p2_text_score.Text = "0";
             // 

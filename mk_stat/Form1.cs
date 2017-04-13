@@ -19,7 +19,7 @@ namespace mk_stat
         {
             InitializeComponent();
         }
-
+        // Обработка изменения счёта, создание строки-результата
         private void score_change(int player, char end)
         {
             if ((comboBox1.SelectedItem == null) || (comboBox2.SelectedItem == null))
@@ -67,6 +67,7 @@ namespace mk_stat
                 comboBox2.SelectedItem = null;
             }
         } 
+        // Стандартная обработка кликов
         private void p1_f_Click(object sender, EventArgs e)
         {
             score_change(1,'F');
@@ -95,6 +96,30 @@ namespace mk_stat
         private void p2_r_Click(object sender, EventArgs e)
         {
             score_change(2,'R');
+        }
+        // Обработка файла результатов
+        List<String> player1 = new List<String>();
+        List<String> player2 = new List<String>();
+        List<String> global_score = new List<String>();
+        string pattern = @"([^-]+)\W{3}(\D+)(\d:\d).([^)]+)";
+        private void read_result_file()
+        {
+            System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(pattern);
+            using (var reader = new System.IO.StreamReader(@"e:\DARK\MK\results.txt"))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    System.Text.RegularExpressions.Match match = regex.Match(line);
+                    while (match.Success)
+                    {
+                        player1.Add(match.Groups[1].Value);
+                        player2.Add(match.Groups[2].Value.Trim());
+                        global_score.Add(match.Groups[3].Value);
+                        match = match.NextMatch();
+                    }
+                }
+            }
         }
     }
 }
