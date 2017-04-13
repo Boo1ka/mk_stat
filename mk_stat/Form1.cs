@@ -57,14 +57,14 @@ namespace mk_stat
                     {
                         file.WriteLine(comboBox1.SelectedItem.ToString() + " - " + comboBox2.SelectedItem.ToString() + ' ' + p1_score + ':' + p2_score + '(' + r_score.Substring(0,r_score.Length - 1) + ')');
                     }
-                    p1_score = 0;
-                    p2_score = 0;
-                    p1_text_score.Text = "0";
-                    p2_text_score.Text = "0";
-                    r_score = "";
-                    comboBox1.SelectedItem = null;
-                    comboBox2.SelectedItem = null;
                 }
+                p1_score = 0;
+                p2_score = 0;
+                p1_text_score.Text = "0";
+                p2_text_score.Text = "0";
+                r_score = "";
+                comboBox1.SelectedItem = null;
+                comboBox2.SelectedItem = null;
             }
         } 
         private void p1_f_Click(object sender, EventArgs e)

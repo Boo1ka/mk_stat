@@ -77,7 +77,7 @@
             "Хищник",
             "Кожаное лицо",
             "Чужой"});
-            this.comboBox1.Location = new System.Drawing.Point(107, 37);
+            this.comboBox1.Location = new System.Drawing.Point(12, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 28);
             this.comboBox1.TabIndex = 0;
@@ -119,16 +119,16 @@
             "Хищник",
             "Кожаное лицо",
             "Чужой"});
-            this.comboBox2.Location = new System.Drawing.Point(107, 113);
+            this.comboBox2.Location = new System.Drawing.Point(12, 51);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 28);
             this.comboBox2.TabIndex = 1;
             // 
             // p1_f
             // 
-            this.p1_f.Location = new System.Drawing.Point(303, 37);
+            this.p1_f.Location = new System.Drawing.Point(230, 12);
             this.p1_f.Name = "p1_f";
-            this.p1_f.Size = new System.Drawing.Size(75, 41);
+            this.p1_f.Size = new System.Drawing.Size(75, 28);
             this.p1_f.TabIndex = 2;
             this.p1_f.Text = "P1_Fat";
             this.p1_f.UseVisualStyleBackColor = true;
@@ -136,9 +136,9 @@
             // 
             // p1_b
             // 
-            this.p1_b.Location = new System.Drawing.Point(445, 41);
+            this.p1_b.Location = new System.Drawing.Point(331, 12);
             this.p1_b.Name = "p1_b";
-            this.p1_b.Size = new System.Drawing.Size(75, 37);
+            this.p1_b.Size = new System.Drawing.Size(75, 28);
             this.p1_b.TabIndex = 3;
             this.p1_b.Text = "P1_Brut";
             this.p1_b.UseVisualStyleBackColor = true;
@@ -146,9 +146,9 @@
             // 
             // p1_r
             // 
-            this.p1_r.Location = new System.Drawing.Point(562, 41);
+            this.p1_r.Location = new System.Drawing.Point(430, 12);
             this.p1_r.Name = "p1_r";
-            this.p1_r.Size = new System.Drawing.Size(75, 37);
+            this.p1_r.Size = new System.Drawing.Size(75, 28);
             this.p1_r.TabIndex = 4;
             this.p1_r.Text = "P1_R";
             this.p1_r.UseVisualStyleBackColor = true;
@@ -156,7 +156,7 @@
             // 
             // p2_f
             // 
-            this.p2_f.Location = new System.Drawing.Point(303, 113);
+            this.p2_f.Location = new System.Drawing.Point(230, 51);
             this.p2_f.Name = "p2_f";
             this.p2_f.Size = new System.Drawing.Size(75, 28);
             this.p2_f.TabIndex = 5;
@@ -166,9 +166,9 @@
             // 
             // p2_b
             // 
-            this.p2_b.Location = new System.Drawing.Point(445, 112);
+            this.p2_b.Location = new System.Drawing.Point(331, 51);
             this.p2_b.Name = "p2_b";
-            this.p2_b.Size = new System.Drawing.Size(75, 29);
+            this.p2_b.Size = new System.Drawing.Size(75, 28);
             this.p2_b.TabIndex = 6;
             this.p2_b.Text = "P2_Brut";
             this.p2_b.UseVisualStyleBackColor = true;
@@ -176,9 +176,9 @@
             // 
             // p2_r
             // 
-            this.p2_r.Location = new System.Drawing.Point(562, 111);
+            this.p2_r.Location = new System.Drawing.Point(430, 51);
             this.p2_r.Name = "p2_r";
-            this.p2_r.Size = new System.Drawing.Size(75, 30);
+            this.p2_r.Size = new System.Drawing.Size(75, 28);
             this.p2_r.TabIndex = 7;
             this.p2_r.Text = "P2_R";
             this.p2_r.UseVisualStyleBackColor = true;
@@ -186,17 +186,17 @@
             // 
             // p1_text_score
             // 
-            this.p1_text_score.Location = new System.Drawing.Point(761, 51);
+            this.p1_text_score.Location = new System.Drawing.Point(150, 14);
             this.p1_text_score.Name = "p1_text_score";
-            this.p1_text_score.Size = new System.Drawing.Size(100, 26);
+            this.p1_text_score.Size = new System.Drawing.Size(56, 26);
             this.p1_text_score.TabIndex = 8;
             this.p1_text_score.Text = "0";
             // 
             // p2_text_score
             // 
-            this.p2_text_score.Location = new System.Drawing.Point(887, 51);
+            this.p2_text_score.Location = new System.Drawing.Point(150, 53);
             this.p2_text_score.Name = "p2_text_score";
-            this.p2_text_score.Size = new System.Drawing.Size(100, 26);
+            this.p2_text_score.Size = new System.Drawing.Size(56, 26);
             this.p2_text_score.TabIndex = 9;
             this.p2_text_score.Text = "0";
             // 
